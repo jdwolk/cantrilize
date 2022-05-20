@@ -6,7 +6,7 @@ Helps with taking notes for Adrian Cantrill's [AWS Certified Solutions Architect
 
 You Should probably install in your global python env rather than a
 virtual env so that the symlink in the following step will always work.
-(*Or just always remember to switch into the appropriate python env before running?)
+(Or just always remember to switch into the appropriate python env before running?)
 
 ```
 $ pip install -r requirements.txt
@@ -40,9 +40,9 @@ $ cantrilize <CANTRILL COURSE LECTURE URL>
 , ie:
 
 ```
-$ cantrilize https://learn.cantrill.io/courses/730712/lectures/25141552
+$ cantrilize https://learn.cantrill.io/courses/<COURSE NUM>/lectures/<LECTURE NUM>
 ```
 
 This will do 2 things:
 1. Create an auto-numbered directory named after the lecture header (eg `09_Network_Starter_Pack___3___Network___Part_2`)
-2. Copy the lecture header to your clipboard so you can paste into your notes (eg `10 Network Starter Pack - 3 - Network - Part 2`)
+2. Copy the lecture header to your clipboard so you can paste into your notes (eg `09 Network Starter Pack - 3 - Network - Part 2`)
